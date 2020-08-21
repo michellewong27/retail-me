@@ -10,7 +10,8 @@
       },
       "back": {
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a03_78903_475_on_b.jpg"
-      }
+      },
+      "info": "This is a mock-neck, half-zip sweater with an oversized fit. It's knit with soft, classic cotton yarn."
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       },
       "back": {
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a06_78931_4425_on_b.jpg"
-      }
+      },
+      "info": "These are high-rise, wide-leg sweatpants with a roomy boyfriend fit and a cinchable drawcord waistband. They're made with Tna’s COZYAF fleece — a premium fleece with a sueded face, brushed back and cloud-nine cozy feel."
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       },
       "back": {
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a01_79700_1275_on_b.jpg"
-      }
+      },
+      "info": "This is a cropped tee with a shrunken body and a notched crew neckline. It's made with soft waffle-knit fabric."
     },
     {
       "id": 3,
@@ -46,7 +49,8 @@
       },
       "back": {
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a06_78975_15725_on_b.jpg"
-      }
+      },
+      "info" : "These are high-rise, workwear-inspired pants with back patch pockets and a hammer loop detail. They're made with structured and substantial cotton twill."
     },
     {
       "id": 4,
@@ -58,7 +62,8 @@
       },
       "back": {
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a01_76729_19457_on_b.jpg"
-      }
+      },
+      "info":"This is a crew-neck longsleeve with a boxy silhouette. It's made with high-twist 100% cotton. Garment Dye (Gd) Colours: The unique colour of our garment dye is achieved through a special process — instead of dyeing the fabric, we dye the finished garment for a dimensional, washed-down look and soft feel. Results vary from one piece to the next, so yours is truly one-of-a-kind."
     },
     {
       "id": 5,
@@ -70,7 +75,8 @@
       },
       "back": {
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a04_79040_14778_on_b.jpg"
-      }
+      },
+      "info": "This is a robe-style hooded jacket with a self-belt. It's made with soft, merino wool that's been boiled for a unique, felted texture."
     },
     {
       "id": 6,
@@ -82,7 +88,8 @@
       },
       "back": {
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a08_79588_10814_on_b.jpg"
-      }
+      },
+      "info": "This is a long-sleeve, mock-neck dress with a thigh slit and a back-cutout detail. It's made from drapey Japanese satin."
     }
   ]
 }
