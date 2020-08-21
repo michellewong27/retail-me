@@ -1,6 +1,7 @@
 {
   "items" : [
     {
+      "id": 1,
       "name": "Ashbury Sweater",
       "price": 90,
       "sizes": ["XS","S", "M","L"],
@@ -12,6 +13,7 @@
       }
     },
     {
+      "id": 2,
       "name": "COZYAF Boyfriend Wide Sweatpant",
       "price": 60,
       "sizes": ["XS","S", "M","L"],
@@ -23,6 +25,7 @@
       }
     },
     {
+      "id": 3,
       "name": "Melrose T-Shirt",
       "price": 30,
       "sizes": ["XS","S", "M","L"],
@@ -31,6 +34,54 @@
       },
       "back": {
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a01_79700_1275_on_b.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Greenwich Pant",
+      "price": 98,
+      "sizes": ["XS","S", "M","L"],
+      "front": {
+        "image" : "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a06_78975_15725_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a06_78975_15725_on_b.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Tour Longsleeve",
+      "price": 40,
+      "sizes": ["XS","S", "M","L"],
+      "front": {
+        "image" : "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a01_76729_19457_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a01_76729_19457_on_b.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Acre Robe",
+      "price": 248,
+      "sizes": ["XS","S", "M","L"],
+      "front": {
+        "image" : "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a04_79040_14778_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a04_79040_14778_on_b.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Baja Dress",
+      "price": 178,
+      "sizes": ["XS","S", "M","L"],
+      "front": {
+        "image" : "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a08_79588_10814_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a08_79588_10814_on_b.jpg"
       }
     }
   ]
