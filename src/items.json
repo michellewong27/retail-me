@@ -80,6 +80,19 @@
     },
     {
       "id": 7,
+      "name": "Alps Sweater",
+      "price": 138,
+      "sizes": ["XS","S", "M","L"],
+      "front": {
+        "image" : "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a03_79510_19356_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a03_79510_19356_on_b.jpg"
+      },
+      "info": "This is a cropped, mock-neck, cable-knit sweater vest with pom-pom detailing. It's made from a soft, cozy wool and cotton blend."
+    },
+    {
+      "id": 8,
       "name": "Baja Dress",
       "price": 178,
       "sizes": ["XS","S", "M","L"],

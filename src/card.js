@@ -8,7 +8,7 @@ export default function Card(props){
     <div className="item">
       <img src={src} alt="front" onMouseLeave={() => setSrc(props.front.image)} onMouseOver={() => setSrc(props.back.image)}/>
       <h1>{props.name}</h1>
-      <h1>{props.price}</h1>
+      <h1>${props.price}</h1>
     </div>
   )
 }
