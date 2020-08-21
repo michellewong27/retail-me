@@ -1,0 +1,37 @@
+{
+  "items" : [
+    {
+      "name": "Ashbury Sweater",
+      "price": 90,
+      "sizes": ["XS","S", "M","L"],
+      "front": {
+        "image" : "https://aritzia.scene7.com/is/image/Aritzia/medium/f20_03_a03_78903_475_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a03_78903_475_on_b.jpg"
+      }
+    },
+    {
+      "name": "COZYAF Boyfriend Wide Sweatpant",
+      "price": 60,
+      "sizes": ["XS","S", "M","L"],
+      "front": {
+        "image" : "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a06_78931_4425_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a06_78931_4425_on_b.jpg"
+      }
+    },
+    {
+      "name": "Melrose T-Shirt",
+      "price": 30,
+      "sizes": ["XS","S", "M","L"],
+      "front": {
+        "image" : "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a01_79700_1275_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_03_a01_79700_1275_on_b.jpg"
+      }
+    }
+  ]
+}
