@@ -40,7 +40,7 @@
       "info": "This is a cropped tee with a shrunken body and a notched crew neckline. It's made with soft waffle-knit fabric."
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Greenwich Pant",
       "price": 98,
       "sizes": ["XS","S", "M","L"],
@@ -53,7 +53,7 @@
       "info" : "These are high-rise, workwear-inspired pants with back patch pockets and a hammer loop detail. They're made with structured and substantial cotton twill."
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Tour Longsleeve",
       "price": 40,
       "sizes": ["XS","S", "M","L"],
@@ -66,7 +66,7 @@
       "info":"This is a crew-neck longsleeve with a boxy silhouette. It's made with high-twist 100% cotton. Garment Dye (Gd) Colours: The unique colour of our garment dye is achieved through a special process — instead of dyeing the fabric, we dye the finished garment for a dimensional, washed-down look and soft feel. Results vary from one piece to the next, so yours is truly one-of-a-kind."
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Acre Robe",
       "price": 248,
       "sizes": ["XS","S", "M","L"],
@@ -79,7 +79,7 @@
       "info": "This is a robe-style hooded jacket with a self-belt. It's made with soft, merino wool that's been boiled for a unique, felted texture."
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Baja Dress",
       "price": 178,
       "sizes": ["XS","S", "M","L"],
