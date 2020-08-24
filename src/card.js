@@ -28,7 +28,7 @@ export default function Card(props){
   }
 
   function viewPage(e){
-    console.log("VIEWWW",props)
+    console.log("Viewing page",props)
     
   }
 
@@ -40,7 +40,7 @@ export default function Card(props){
           <div className="quickadd">
             <button className="quickview-btn">Quick view</button>
             <div className="selectsize">
-              <select name="Size" id="size">
+              <select className="select-btn" name="Size" id="size">
                 <option value="XS">XS</option>
                 <option value="S">S</option>
                 <option value="M">M</option>
