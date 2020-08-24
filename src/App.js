@@ -1,10 +1,11 @@
 import React from 'react';
+// import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import json from './items.json'
 import Card from './card'
 
 function App() {
-  console.log(json.items)
+
   return (
     <div className="App">
      <h1>Retail Me</h1>
