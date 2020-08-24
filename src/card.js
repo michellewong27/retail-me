@@ -27,15 +27,21 @@ export default function Card(props){
     return [ref, hovered]
   }
 
-  function viewPage(e){
+  function viewPage(){
     console.log("Viewing page",props)
     
   }
+  
+  function addToCart(){
+    console.log("Add to cart")
+  }
+  
 
+  //onClick of add to cart, also views product page?
   return(
-    <div className="item" onClick={(e) => viewPage(e)} >
+    <div className="item" ref={ref} onMouseLeave={() => setSrc(props.front.image)} onMouseEnter={() => setSrc(props.back.image)} onClick={viewPage} >
       <div className="imagewrap">
-        <img src={src} alt="front" ref={ref} onMouseLeave={() => setSrc(props.front.image)} onMouseEnter={() => setSrc(props.back.image)}/>
+        <img src={src} alt="front" />
         {hovered && 
           <div className="quickadd">
             <button className="quickview-btn">Quick view</button>
@@ -48,7 +54,7 @@ export default function Card(props){
               </select>
             </div>
             <div className="addtocart">
-              <button className="add-btn">Add to cart</button>
+              <button className="add-btn" onClick={addToCart}>Add to cart</button>
             </div>
           </div>}
       </div>

@@ -30,7 +30,6 @@ img {
 .selectsize{
   width: 30%;
   min-height: 25px;
-  cursor: pointer;
 }
 
 .select-btn{
@@ -43,6 +42,7 @@ img {
   letter-spacing: normal;
   line-height: normal;
   overflow-wrap: normal;
+  cursor: pointer;
 }
 
 
