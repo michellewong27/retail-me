@@ -1,0 +1,126 @@
+:root {
+  font-size: 16px;
+  --primary-button-bg-color: rgb(31, 116, 165);
+  --primary-button-fg-color: rgb(255, 255, 255);
+  --card-width: 300px;
+}
+
+.carousel {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 510px;
+  overflow-x: scroll;
+  width: calc(4 * var(--card-width));
+  box-sizing: border-box;
+}
+
+.carousel .card {
+  position: relative;
+  flex: 250px;
+  background: white;
+  margin: 0.5rem;
+  padding: 1rem;
+  width: var(--card-width);
+  font-size: x-small;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  z-index: 1;
+  border: 1px solid var(--primary-button-bg-color);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.carousel .card img {
+  width: 15rem;
+}
+
+.carousel .card .image-wrap {
+  text-align: center;
+}
+
+.carousel .card .quick-add {
+  position: absolute;
+  display: flex;
+  bottom: 8.5rem;
+  left: 0;
+  padding: 12px;
+  width: 100%;
+  justify-content: center;
+  z-index: 2;
+}
+
+.carousel .card .select-size {
+  width: 30%;
+  min-height: 25px;
+}
+
+.carousel .select-btn {
+  border: 3px;
+  outline: 1px inset blue;
+  outline-offset: -1px;
+  align-items: center;
+  font-size: 13px;
+  height: 30px;
+  letter-spacing: normal;
+  line-height: normal;
+  overflow-wrap: normal;
+  cursor: pointer;
+}
+
+.carousel .add-btn {
+  height: 30px;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+
+  color: white;
+}
+
+.carousel .quickview-btn {
+  cursor: pointer;
+  letter-spacing: 0.4px;
+
+  color: white;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.button.primary {
+  border: var(--primary-button-bg-color);
+  background-color: var(--primary-button-bg-color);
+  color: var(--primary-button-fg-color);
+}
+
+.carousel .items {
+  flex: 1;
+  width: calc(3 * var(--card-width));
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.carousel .items .slider {
+  position: absolute;
+  display: flex;
+  width: 100%;
+}
+
+.carousel .arrow {
+  position: relative;
+  font-size: 4rem;
+  top: 40%;
+  z-index: 2;
+}
+
+.carousel .arrow.left {
+  left: 2rem;
+}
+
+.carousel .arrow.right {
+  right: 2rem;
+}
