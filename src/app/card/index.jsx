@@ -29,6 +29,7 @@ export default function Card(props) {
 
   function viewPage() {
     console.log("Viewing page", props);
+    
   }
 
   function addToCart() {
@@ -36,6 +37,7 @@ export default function Card(props) {
   }
 
   //onClick of add to cart, also views product page?
+
   return (
     <div
       className="card"

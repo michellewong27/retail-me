@@ -1,21 +1,36 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar(){
   return (
     <div className="navbar">
-      <Link to="/new" className="link">
-        <div>New</div>
-      </Link>
-      <Link to="/clothing" className="link">
-        <div>Clothing</div>
-      </Link>
-      <Link to="/shoes" className="link">
-        <div>Shoes</div>
-      </Link>
-      <Link to="/cart" className="link">
-        <div>My Cart</div>
-      </Link>
+      <ul>
+        <li>
+          <NavLink to="/" exact activeStyle={{ color: "black" }}>
+            Retail Me Logo
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/new" exact activeStyle={{ color: "black" }}>
+            New
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/clothing" exact activeStyle={{ color: "black" }}>
+            Clothing
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/shoes" exact activeStyle={{ color: "black" }}>
+            Shoes
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/cart" exact activeStyle={{ color: "black" }}>
+            My Cart
+          </NavLink>
+        </li>
+      </ul>
     </div>
   );
 }
