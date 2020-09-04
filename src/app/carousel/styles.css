@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  --primary-button-bg-color: rgb(31, 116, 165);
+  --primary-button-bg-color: black;
   --primary-button-fg-color: rgb(255, 255, 255);
   --card-width: 300px;
 }
@@ -42,10 +42,9 @@
 .carousel .card .quick-add {
   position: absolute;
   display: flex;
+  padding-left: 0.2rem;
   bottom: 8.5rem;
-  left: 0;
-  padding: 12px;
-  width: 100%;
+  width: 85%;
   justify-content: center;
   z-index: 2;
 }
@@ -57,7 +56,7 @@
 
 .carousel .select-btn {
   border: 3px;
-  outline: 1px inset blue;
+  outline: 1px inset black;
   outline-offset: -1px;
   align-items: center;
   font-size: 13px;
@@ -94,6 +93,7 @@
 .button.primary {
   border: var(--primary-button-bg-color);
   background-color: var(--primary-button-bg-color);
+  opacity: 75%;
   color: var(--primary-button-fg-color);
 }
 

@@ -6,7 +6,7 @@ export default function Navbar(){
     <ul className="navbar">
       <li>
         <NavLink to="/" exact activeStyle={{ color: "gray" }}>
-          Retail Me Logo
+          Home
         </NavLink>
       </li>
       <li>

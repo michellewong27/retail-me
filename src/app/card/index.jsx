@@ -1,8 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 import Item from '../item';
+import { withRouter } from "react-router-dom"
 // import {Link} from 'react-router-dom';
 
-export default function Card(props) {
+//props doesnt work when i import {history,match}
+function Card( props) {
   const front = props.front.image;
   const [src, setSrc] = useState(front);
   const [ref, hovered] = useHover();
@@ -29,7 +31,10 @@ export default function Card(props) {
 
   function viewItem(e) {
     console.log("Viewing item page", props);
-    e.preventDefault();
+    //use match to find item id or use props to get id?
+    // window.location.href = `/clothing/${id}`;
+
+    // history.push(`/clothing/${id}`);
 
   }
 
@@ -38,7 +43,6 @@ export default function Card(props) {
   }
 
   //onClick of add to cart, also views product page?
-
   return (
     // <Link to='/clothing/:id'>
       <div
@@ -76,3 +80,5 @@ export default function Card(props) {
     // </Link>
   );
 }
+
+export default withRouter(Card);
