@@ -9,6 +9,7 @@
   display: flex;
   position: relative;
   overflow: hidden;
+  margin: 10px;
   height: 510px;
   overflow-x: scroll;
   width: calc(4 * var(--card-width));
@@ -42,7 +43,7 @@
 .carousel .card .quick-add {
   position: absolute;
   display: flex;
-  padding-left: 0.2rem;
+  padding-left: 0.25rem;
   bottom: 8.5rem;
   width: 85%;
   justify-content: center;
@@ -119,10 +120,18 @@
 
 .carousel .arrow.left {
   left: 2rem;
+  cursor: pointer;
 }
+
 
 .carousel .arrow.right {
   right: 2rem;
+  cursor: pointer;
+}
+
+.carousel .item-description{
+  position: relative;
+  
 }
 
 ul.navbar {

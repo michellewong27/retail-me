@@ -103,6 +103,78 @@
         "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a08_79588_10814_on_b.jpg"
       },
       "info": "This is a long-sleeve, mock-neck dress with a thigh slit and a back-cutout detail. It's made from drapey Japanese satin."
+    },
+    {
+      "id": 9,
+      "name": "Caspian Pant",
+      "price": 148,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "front": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_01_a06_74478_1274_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_01_a06_74478_1274_on_b.jpg"
+      },
+      "info": "These are high-rise pants with a slim fit and darts for shaping. They're made from our premium vegan leather from Japan crafted for superior shape retention, easy care and an authentic leather look."
+    },
+    {
+      "id": 10,
+      "name": "Cyprie V-Neck Sweater",
+      "price": 138,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "front": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a03_79018_6261_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_04_a03_79018_6261_on_b.jpg"
+      },
+      "info": "All you need this season. This is a long-sleeve, V-neck sweater with a drop shoulder. It's made with 100% extra-fine merino wool yarn from Italy that's warm and soft."
+    },
+    {
+      "id": 11,
+      "name": "Pelli Skirt",
+      "price": 98,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "front": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_01_a07_74850_6011_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_01_a07_74850_6011_on_b.jpg"
+      },
+      "info": "This is a slim, faux-wrap skirt with a slit, a tailored waist and a side-tie detail. This version is made with our Vegan Stretch Leather— a soft, supple vegan leather that looks and feels like the real thing"
+    }, 
+    {
+      "id": 12,
+      "name": "Energia Sweatpant",
+      "price": 88,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "front": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_00_a06_79933_1274_on_a.jpg"
+      },
+      "back": {
+        "image": "https://aritzia.scene7.com/is/image/Aritzia/large/f20_00_a06_79933_1274_on_b.jpg"
+      },
+      "info": "These are high-rise, pull-on sweatpants with a slouchy fit and a semi-wide leg. They're made with a drapey, recycled cotton fleece fabric."
     }
   ]
 }

@@ -73,9 +73,10 @@ function Card( props) {
             </div>
           )}
         </div>
-
-        <h1>{props.name}</h1>
-        <h1>${props.price}</h1>
+        <div className="item-description">
+          <h1>{props.name}</h1>
+          <h1>${props.price}</h1>
+        </div>
       </div>
     // </Link>
   );
